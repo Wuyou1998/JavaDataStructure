@@ -11,7 +11,8 @@ public class Main {
         LinkedList<Integer> linkedList = new LinkedList<>();
         for (int i = 0; i < 15; i++) {
             linkedList.addLast(i);
-            System.out.println(linkedList);
         }
+        linkedList.remove(14);
+        System.out.println(linkedList);
     }
 }
