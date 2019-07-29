@@ -1,5 +1,7 @@
 package com.wy.dataStructure._05binarySearchTree;
 
+import java.util.Random;
+
 /**
  * 名称: JavaDataStructure.com.wy.dataStructure._05binarySearchTree.Main
  * 用户: _VIEW
@@ -11,7 +13,8 @@ public class Main {
 
     public static void main(String[] args) {
         initData();
-        printOrder();
+        //printOrder();
+        System.out.println(bst);
     }
 
     private static void printOrder() {
@@ -27,10 +30,9 @@ public class Main {
     }
 
     private static void initData() {
-        bst.add(5);
-        bst.add(3);
-        bst.add(4);
-        bst.add(6);
-        bst.add(8);
+        Random random=new Random();
+        for (int i = 0; i < 10; i++) {
+            bst.add(random.nextInt(10000));
+        }
     }
 }
