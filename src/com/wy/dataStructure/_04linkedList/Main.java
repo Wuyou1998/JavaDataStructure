@@ -12,7 +12,8 @@ public class Main {
         for (int i = 0; i < 15; i++) {
             linkedList.addLast(i);
         }
-        linkedList.remove(14);
-        System.out.println(linkedList);
+        System.out.println(linkedList.contains(0));
+        System.out.println(linkedList.contains(14));
+        System.out.println(linkedList.contains(15));
     }
 }

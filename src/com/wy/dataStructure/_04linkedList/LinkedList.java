@@ -81,6 +81,17 @@ public class LinkedList<E> {
         }
         previousNode.e = e;
     }
+
+    public boolean contains(E e){
+        Node current=dummyHead.next;
+        while (current!=null){
+            if (current.e.equals(e))
+                return true;
+            else
+                current=current.next;
+        }
+        return false;
+    }
     //获取index处的元素
     public E getElement(int index) {
         if (index > size || index < 0)
