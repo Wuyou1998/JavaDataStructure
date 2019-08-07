@@ -1,7 +1,6 @@
 package com.wy.dataStructure._06set;
 
 import com.wy.dataStructure._04linkedList.LinkedList;
-import com.wy.dataStructure._06set.Set;
 
 /**
  * 名称: JavaDataStructure.com.wy.dataStructure._05binarySearchTree.LinkedListSat
@@ -13,7 +12,7 @@ public class LinkedListSet<E> implements Set<E> {
     private LinkedList<E> linkedList;
 
     public LinkedListSet() {
-        linkedList=new LinkedList<>();
+        linkedList = new LinkedList<>();
     }
 
     @Override
