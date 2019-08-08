@@ -29,6 +29,14 @@ public class Array<E> {
         this(10);
     }
 
+    public Array(E[] arr) {
+        data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            data[i] = arr[i];
+        }
+        size = arr.length;
+    }
+
     public int getCapacity() {
         return data.length;
     }
@@ -83,7 +91,7 @@ public class Array<E> {
     }
 
     public E getLastElement() {
-        return size==0?null:data[size-1];
+        return size == 0 ? null : data[size - 1];
     }
 
     //是否包含元素e
@@ -91,6 +99,16 @@ public class Array<E> {
         if (findFirst(e) != -1)
             return true;
         return false;
+    }
+
+    //交换元素
+    public void swap(int i, int j) {
+        if (i < 0 || i > size || j < 0 || j > size) {
+            throw new IllegalArgumentException("index is illagal");
+        }
+        E temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
     }
 
     //找到元素e出现的第一个index
@@ -128,7 +146,7 @@ public class Array<E> {
         data[size - 1] = e;
     }
 
-    //在index处插入e，并将原始[index,size-1]的元素向后移一位
+    //在index处删除e，并将原始[index,size-1]的元素向前移一位
     public E remove(int index) {
         if (index < 0 || index > size)
             throw new IllegalArgumentException("The Element's index must > 0 and < size,get failed!");

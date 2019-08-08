@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b02217ce-f080-4ad1-947d-09cab40f876f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/ArrayMaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/wy/dataStructure/_04linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/wy/dataStructure/_04linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_01array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_01array/Array.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +31,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/wy/dataStructure/_01array/Array.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/wy/dataStructure/_06set/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1Ob0GsX9GPX8Ia3vI4YYxyKfqqq" />
   <component name="ProjectLevelVcsManager">
@@ -41,9 +42,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wy/dataStructure/_00TestUtil" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
+      <recent name="E:\GitHub\JavaDataStructure" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="LoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._03queue.LoopMain" />
       <module name="DataStructure" />
@@ -98,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._05binarySearchTree.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._07map.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._05binarySearchTree.*" />
+          <option name="PATTERN" value="com.wy.dataStructure._07map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +121,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._01array.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._08heap.Main" />
       <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wy.dataStructure._08heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._06set.Main" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wy.dataStructure._07map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.LoopMain" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +192,11 @@
       <workItem from="1564230901163" duration="938000" />
       <workItem from="1564231865629" duration="5446000" />
       <workItem from="1564282981609" duration="9000" />
-      <workItem from="1564415464635" duration="4109000" />
+      <workItem from="1564415464635" duration="4577000" />
+      <workItem from="1564497422495" duration="102000" />
+      <workItem from="1565094029824" duration="14837000" />
+      <workItem from="1565180640306" duration="7000" />
+      <workItem from="1565264852831" duration="7343000" />
     </task>
     <servers />
   </component>
