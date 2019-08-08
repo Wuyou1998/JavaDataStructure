@@ -27,7 +27,7 @@ public class ArrayMaxHeap<E extends Comparable<E>> {
         }
     }
 
-    public int size() {
+    public int getSize() {
         return data.getSize();
     }
 
