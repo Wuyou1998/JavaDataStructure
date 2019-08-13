@@ -1,8 +1,5 @@
 package com.wy.dataStructure._05binarySearchTree;
 
-import com.wy.dataStructure._00TestUtil.FileOperation;
-
-import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -23,7 +20,7 @@ public class Main {
     private static void printOrder() {
         bst.preOrder();
         System.out.println();
-        bst.NRpreOrder();
+        bst.NRPreOrder();
         System.out.println();
         bst.inOrder();
         System.out.println();

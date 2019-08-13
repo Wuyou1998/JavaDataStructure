@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b02217ce-f080-4ad1-947d-09cab40f876f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/ArrayMaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_01array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_01array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +46,17 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wy/dataStructure/_00TestUtil" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
       <recent name="E:\GitHub\JavaDataStructure" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wy.dataStructure._13AVLTree" />
+      <recent name="com.wy.dataStructure._12unionFind" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
@@ -68,26 +74,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="LoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._03queue.LoopMain" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._03queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._03queue.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._13AVLTree.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._03queue.*" />
+          <option name="PATTERN" value="com.wy.dataStructure._13AVLTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +89,6 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._04linkedList.Main" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._04linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._07map.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
@@ -121,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._08heap.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._10segmentTree.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._08heap.*" />
+          <option name="PATTERN" value="com.wy.dataStructure._10segmentTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._12unionFind.Main" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wy.dataStructure._12unionFind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,24 +128,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._06set.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._05binarySearchTree.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._07map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._02stack.Main" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._02stack.*" />
+          <option name="PATTERN" value="com.wy.dataStructure._05binarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.LoopMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (6)" />
+        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +176,14 @@
       <workItem from="1564497422495" duration="102000" />
       <workItem from="1565094029824" duration="14837000" />
       <workItem from="1565180640306" duration="7000" />
-      <workItem from="1565264852831" duration="7343000" />
+      <workItem from="1565264852831" duration="8630000" />
+      <workItem from="1565314854305" duration="7437000" />
+      <workItem from="1565353908697" duration="1215000" />
+      <workItem from="1565375576427" duration="170000" />
+      <workItem from="1565439043149" duration="2260000" />
+      <workItem from="1565537939192" duration="5352000" />
+      <workItem from="1565609340166" duration="5766000" />
+      <workItem from="1565707655710" duration="3640000" />
     </task>
     <servers />
   </component>
@@ -206,6 +193,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/GitHub/JavaDataStructure/src/com/wy/dataStructure/_12unionFind" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -214,6 +226,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
 </project>

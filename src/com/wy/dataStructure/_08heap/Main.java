@@ -9,7 +9,7 @@ import java.util.Random;
  * 描述: 数组二叉最大堆测试类
  */
 public class Main {
-    public static final int COUNT=10000000;
+    public static final int COUNT=1000;
     public static void main(String[] args) {
         Random random = new Random();
         Integer[] arr = new Integer[COUNT];
