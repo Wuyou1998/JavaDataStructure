@@ -19,13 +19,15 @@ public class Main {
             AVLTree<String, Integer> avlTree = new AVLTree<>();
             for (String word : words) {
                 if (avlTree.contains(word))
-                    avlTree.add(word, avlTree.get(word) + 1);
+                    avlTree.set(word, avlTree.get(word) + 1);
                 else
                     avlTree.add(word, 1);
             }
             System.out.println("不同的单词个数：" + avlTree.getSize());
             System.out.println("pride 出现的次数：" + avlTree.get("pride"));
             System.out.println("prejudice 出现的次数：" + avlTree.get("prejudice"));
+            System.out.println("是BST吗："+avlTree.isBST());
+            System.out.println("平衡吗："+avlTree.isBalanced());
         }
     }
 }

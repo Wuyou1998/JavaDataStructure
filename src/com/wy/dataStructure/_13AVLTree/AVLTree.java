@@ -1,9 +1,7 @@
 package com.wy.dataStructure._13AVLTree;
 
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.ArrayList;
 
 /**
  * 名称: com.wy.dataStructure._13AVLTree.AVLTree
@@ -35,6 +33,7 @@ public class AVLTree<K extends Comparable<K>, V> {
         size = 0;
     }
 
+    //获得节点的高度
     private int getHeight(Node node) {
         if (node == null)
             return 0;
@@ -49,11 +48,45 @@ public class AVLTree<K extends Comparable<K>, V> {
         return size == 0;
     }
 
+    //判断当前是不是一个二分搜索树，利用中序遍历的性质来判断
+    //如果中序遍历后得到了一个升序的数组，表明是二分搜索树
+    public boolean isBST() {
+        ArrayList<K> keys = new ArrayList<>();
+        inOrder(root, keys);
+        for (int i = 0; i < keys.size() - 1; i++) {
+            if (keys.get(i).compareTo(keys.get(i + 1)) > 0)
+                return false;
+
+        }
+        return true;
+    }
+
+    private void inOrder(Node node, ArrayList<K> keys) {
+        if (node == null)
+            return;
+        inOrder(node.left, keys);
+        keys.add(node.key);
+        inOrder(node.right, keys);
+    }
+
     //获得节点node的平衡因子
     private int getBalanceFactor(Node node) {
         if (node == null)
             return 0;
         return getHeight(node.left) - getHeight(node.right);
+    }
+
+    //判断一个节点是否平衡
+    public boolean isBalanced(){
+        return isBalanced(root);
+    }
+    private boolean isBalanced(Node node) {
+        if (node == null)
+            return true;
+        int balanceFactor = getBalanceFactor(node);
+        if (Math.abs(balanceFactor) > 1)
+            return false;
+        return isBalanced(node.left)&&isBalanced(node.right);
     }
 
     public void add(K key, V value) {
@@ -73,7 +106,7 @@ public class AVLTree<K extends Comparable<K>, V> {
         else
             node.value = value;
         //更新height
-        node.height =1+ Math.max(getHeight(node.left), getHeight(node.right));
+        node.height = 1 + Math.max(getHeight(node.left), getHeight(node.right));
 
         //计算平衡因子
         int balanceFactor = getBalanceFactor(node);
@@ -105,85 +138,6 @@ public class AVLTree<K extends Comparable<K>, V> {
 
         Node node = getNode(root, key);
         return node == null ? null : node.value;
-    }
-
-    /**
-     * 前序遍历,递归实现
-     */
-    public void preOrder() {
-        preOrder(root);
-    }
-
-    private void preOrder(Node node) {
-        if (node == null)
-            return;
-        System.out.print(node.key + " ");
-        preOrder(node.left);
-        preOrder(node.right);
-    }
-
-    /**
-     * 非递归实现前序遍历
-     */
-    public void NRPreOrder() {
-        Stack<Node> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            Node currentNode = stack.pop();
-            System.out.print(currentNode.key + " ");
-            if (currentNode.right != null)
-                stack.push(currentNode.right);
-            if (currentNode.left != null)
-                stack.push(currentNode.left);
-        }
-    }
-
-    /**
-     * 中序遍历
-     */
-    public void inOrder() {
-        inOrder(root);
-    }
-
-    private void inOrder(Node node) {
-        if (node == null)
-            return;
-        preOrder(node.left);
-        System.out.print(node.key + " ");
-        preOrder(node.right);
-    }
-
-    /**
-     * 后续遍历
-     */
-    public void postOrder() {
-        postOrder(root);
-    }
-
-    private void postOrder(Node node) {
-        if (node == null)
-            return;
-        postOrder(node.left);
-        postOrder(node.right);
-        System.out.print(node.key + " ");
-    }
-
-    /**
-     * 层序遍历
-     */
-    public void levelOrder() {
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            Node currentNode = queue.remove();
-            System.out.print(currentNode.key + " ");
-            if (currentNode.left != null) {
-                queue.add(currentNode.left);
-            }
-            if (currentNode.right != null) {
-                queue.add(currentNode.right);
-            }
-        }
     }
 
     /**
@@ -304,6 +258,14 @@ public class AVLTree<K extends Comparable<K>, V> {
                 return successor;
             }
         }
+    }
+
+    public void set(K key, V newValue) {
+        Node node = getNode(root, key);
+        if (node == null)
+            throw new IllegalArgumentException(key + " doesn't exist!");
+
+        node.value = newValue;
     }
 
     @Override

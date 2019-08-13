@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b02217ce-f080-4ad1-947d-09cab40f876f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_05binarySearchTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_08heap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wy/dataStructure/_00TestUtil" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -59,6 +56,7 @@
       <recent name="com.wy.dataStructure._12unionFind" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_13AVLTree" />
       <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
     </key>
   </component>
@@ -183,7 +181,7 @@
       <workItem from="1565439043149" duration="2260000" />
       <workItem from="1565537939192" duration="5352000" />
       <workItem from="1565609340166" duration="5766000" />
-      <workItem from="1565707655710" duration="3640000" />
+      <workItem from="1565707655710" duration="5844000" />
     </task>
     <servers />
   </component>
