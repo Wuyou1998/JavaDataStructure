@@ -233,8 +233,13 @@ public class AVLTree<K extends Comparable<K>, V> {
         return getMaximum(node.right);
     }
 
-    public void remove(K e) {
-        root = remove(root, e);
+    public V remove(K key) {
+        Node node = getNode(root, key);
+        if(node != null){
+            root = remove(root, key);
+            return node.value;
+        }
+        return null;
     }
 
     /**

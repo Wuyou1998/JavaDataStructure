@@ -15,9 +15,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("BSTSet用时：" + TestTimeUtil.getRunTime(Main::testBSTSet) + "s");
         System.out.println("LinkedListSet用时：" + TestTimeUtil.getRunTime(Main::testLinkedListSet) + "s");
+        System.out.println("AVLSet用时：" + TestTimeUtil.getRunTime(Main::testAVLSet) + "s");
         /*
-         * BSTSet用时：0.2477161s
-         * LinkedListSet用时：7.437744s
+         * BSTSet用时：0.2286867s
+         * LinkedListSet用时：7.2726636s
+         * AVLSet用时：0.1203827s
          * 链表的add contains remove 复杂度都是O(n),二分搜索树则是O(h),
          * h为二分搜索树的深度，若二分搜索树有n个节点，由等比数列求和公式可得
          * 2^h - 1 = n =====> h=log2(n+1)
@@ -70,5 +72,19 @@ public class Main {
             linkedListSet2.add(word);
         }
         // System.out.println("Total different words:" + linkedListSet2.getSize());
+    }
+    private static void testAVLSet() {
+        ArrayList<String> words = new ArrayList<>();
+        FileOperation.readFile("src/com/wy/dataStructure/_00TestUtil/pride-and-prejudice.txt", words);
+        AVLSet<String> linkedListSet = new AVLSet<>();
+        for (String word : words) {
+            linkedListSet.add(word);
+        }
+        ArrayList<String> words2 = new ArrayList<>();
+        FileOperation.readFile("src/com/wy/dataStructure/_00TestUtil/a-tale-of-two-cities.txt", words2);
+        AVLSet<String> linkedListSet2 = new AVLSet<>();
+        for (String word : words2) {
+            linkedListSet2.add(word);
+        }
     }
 }
