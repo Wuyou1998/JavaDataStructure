@@ -43,21 +43,21 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_13AVLTree" />
       <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
-      <recent name="E:\GitHub\JavaDataStructure" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wy.dataStructure._13AVLTree" />
       <recent name="com.wy.dataStructure._12unionFind" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_13AVLTree" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\JavaDataStructure\src\com\wy\dataStructure\_00TestUtil" />
+      <recent name="E:\GitHub\JavaDataStructure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,6 +182,8 @@
       <workItem from="1565537939192" duration="5352000" />
       <workItem from="1565609340166" duration="5766000" />
       <workItem from="1565707655710" duration="5844000" />
+      <workItem from="1565757955063" duration="3978000" />
+      <workItem from="1565761984792" duration="3977000" />
     </task>
     <servers />
   </component>
