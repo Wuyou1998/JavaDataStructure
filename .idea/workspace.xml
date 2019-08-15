@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b02217ce-f080-4ad1-947d-09cab40f876f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_06set/AVLSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_07map/AVLMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_14RBTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_14RBTree/RBTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_06set/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_06set/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_07map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_07map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wy/dataStructure/_13AVLTree/AVLTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._13AVLTree.Main" />
       <module name="DataStructure" />
@@ -115,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._12unionFind.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wy.dataStructure._14RBTree.Main" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wy.dataStructure._12unionFind.*" />
+          <option name="PATTERN" value="com.wy.dataStructure._14RBTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +184,7 @@
       <workItem from="1565707655710" duration="5844000" />
       <workItem from="1565757955063" duration="3978000" />
       <workItem from="1565761984792" duration="6172000" />
+      <workItem from="1565797339174" duration="6501000" />
     </task>
     <servers />
   </component>
