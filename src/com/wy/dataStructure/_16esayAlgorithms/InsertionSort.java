@@ -16,7 +16,7 @@ public class InsertionSort {
         arr[j] = t;
     }
 
-    private static void sort(Comparable[] arr) {
+    public static void sort(Comparable[] arr) {
         int n = arr.length;
 
         for (int i = 0; i < n; i++) {
@@ -33,11 +33,22 @@ public class InsertionSort {
 //            }
             Comparable e = arr[i];
             int j = i;
-            for (;j>0&& arr[j - 1].compareTo(e) > 0; j--)
+            for (; j > 0 && arr[j - 1].compareTo(e) > 0; j--)
                 arr[j] = arr[j - 1];
             arr[j] = e;
         }
 
+    }
+
+    public static void insertSort(Comparable[] arr, int l, int r) {
+        for (int i = l + 1; i <= r; i++) {
+            Comparable e = arr[i];
+            int j;
+            for (j = i; j > l && arr[j].compareTo(e) > 0; j--) {
+                arr[j] = arr[j - 1];
+            }
+            arr[j] = e;
+        }
     }
 
     public static void main(String[] args) {
